@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortuna Asset Preview</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      letter-spacing: 8px;
+      margin-bottom: 10px;
+      font-family: serif;
+    }
+    
+    h2 {
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 4px;
+      margin: 60px 0 20px;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      padding-bottom: 10px;
+    }
+    
+    .subtitle {
+      font-size: 14px;
+      letter-spacing: 6px;
+      opacity: 0.7;
+      margin-bottom: 60px;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+    
+    .card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .card h3 {
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      color: #a78bfa;
+    }
+    
+    .logo-preview {
+      background: linear-gradient(135deg, #581c87 0%, #0f172a 100%);
+      padding: 40px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+    }
+    
+    .logo-preview img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .file-path {
+      font-size: 12px;
+      font-family: monospace;
+      background: rgba(0,0,0,0.3);
+      padding: 8px 12px;
+      border-radius: 4px;
+      margin-top: 15px;
+      overflow-x: auto;
+    }
+    
+    .template-preview {
+      background: rgba(0,0,0,0.2);
+      padding: 20px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 14px;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      margin-top: 15px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-top: 20px;
+      transition: opacity 0.2s;
+    }
+    
+    .btn:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FORTUNA</h1>
+    <div class="subtitle">ASSET PREVIEW</div>
+    
+    <h2>LOGO VARIATIONS</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>MAIN LOGO</h3>
+        <div class="logo-preview">
+          <img src="/logo.svg" alt="Fortuna Logo">
+        </div>
+        <div class="file-path">public/logo.svg</div>
+        <a href="/logo.svg" download class="btn">DOWNLOAD</a>
+      </div>
+      
+      <div class="card">
+        <h3>WHITE VERSION</h3>
+        <div class="logo-preview">
+          <img src="/logo-white.svg" alt="Fortuna Logo White">
+        </div>
+        <div class="file-path">public/logo-white.svg</div>
+        <a href="/logo-white.svg" download class="btn">DOWNLOAD</a>
+      </div>
+      
+      <div class="card">
+        <h3>DARK VERSION</h3>
+        <div class="logo-preview" style="background: white;">
+          <img src="/logo-dark.svg" alt="Fortuna Logo Dark">
+        </div>
+        <div class="file-path">public/logo-dark.svg</div>
+        <a href="/logo-dark.svg" download class="btn">DOWNLOAD</a>
+      </div>
+      
+      <div class="card">
+        <h3>COMPACT VERSION</h3>
+        <div class="logo-preview">
+          <img src="/logo-compact.svg" alt="Fortuna Logo Compact">
+        </div>
+        <div class="file-path">public/logo-compact.svg</div>
+        <a href="/logo-compact.svg" download class="btn">DOWNLOAD</a>
+      </div>
+      
+      <div class="card">
+        <h3>FAVICON</h3>
+        <div class="logo-preview">
+          <img src="/favicon.svg" alt="Fortuna Favicon" style="width: 64px;">
+        </div>
+        <div class="file-path">public/favicon.svg</div>
+        <a href="/favicon.svg" download class="btn">DOWNLOAD</a>
+      </div>
+    </div>
+    
+    <h2>TWITTER ASSETS</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>PROFILE PHOTO</h3>
+        <div class="logo-preview">
+          <img src="/twitter-profile-photo.svg" alt="Twitter Profile" style="border-radius: 50%;">
+        </div>
+        <div class="file-path">public/twitter-profile-photo.svg</div>
+        <a href="/twitter-profile-photo.svg" download class="btn">DOWNLOAD</a>
+      </div>
+      
+      <div class="card">
+        <h3>HEADER IMAGE</h3>
+        <div class="logo-preview" style="min-height: auto;">
+          <img src="/twitter-header.svg" alt="Twitter Header">
+        </div>
+        <div class="file-path">public/twitter-header.svg</div>
+        <a href="/twitter-header.svg" download class="btn">DOWNLOAD</a>
+      </div>
+    </div>
+    
+    <h2>SOCIAL MEDIA TEMPLATES</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>LAUNCH ANNOUNCEMENT</h3>
+        <div class="template-preview">FORTUNA
+
+The world's first on-chain charitable giving platform.
+
+✓ 100% transparent
+✓ Provably fair draws
+✓ Zero trust required
+
+Play for purpose.
+
+Launch: May 1, 2026
+
+givefortuna.io</div>
+      </div>
+      
+      <div class="card">
+        <h3>CAUSE ANNOUNCEMENT</h3>
+        <div class="template-preview">NEW CAUSE LIVE
+
+Make-A-Wish Foundation
+Grant wishes for children with critical illnesses
+
+Prize: $5,000 (50/50 draw)
+Entry: $5 per entry
+Draw: May 3, 2026
+
+Enter now: givefortuna.io
+
+🎯</div>
+      </div>
+      
+      <div class="card">
+        <h3>WINNER ANNOUNCEMENT</h3>
+        <div class="template-preview">WINNER SELECTED
+
+Cause: Make-A-Wish Foundation
+Winner: 0x1234...5678
+Prize: $2,500
+Charity: $2,500
+
+Provably fair via Chainlink VRF.
+
+Verify: basescan.org/tx/[hash]
+
+🎊</div>
+      </div>
+    </div>
+    
+    <h2>DOCUMENTATION</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>BRAND GUIDE</h3>
+        <p style="opacity: 0.7; margin-bottom: 15px;">Logo usage, colors, typography, tone of voice</p>
+        <div class="file-path">FORTUNA_BRAND_GUIDE.md</div>
+      </div>
+      
+      <div class="card">
+        <h3>SOCIAL TEMPLATES</h3>
+        <p style="opacity: 0.7; margin-bottom: 15px;">Twitter, Telegram, Discord, Instagram, LinkedIn</p>
+        <div class="file-path">SOCIAL_MEDIA_TEMPLATES.md</div>
+      </div>
+      
+      <div class="card">
+        <h3>BUILD PLAN</h3>
+        <p style="opacity: 0.7; margin-bottom: 15px;">23-day roadmap to May 1 launch</p>
+        <div class="file-path">FORTUNA_BUILD_PLAN.md</div>
+      </div>
+      
+      <div class="card">
+        <h3>SMART CONTRACT</h3>
+        <p style="opacity: 0.7; margin-bottom: 15px;">Architecture, security, deployment</p>
+        <div class="file-path">FORTUNA_SMART_CONTRACT.md</div>
+      </div>
+    </div>
+    
+    <h2>FILE LOCATIONS</h2>
+    <div class="card">
+      <h3>ALL ASSETS</h3>
+      <div class="template-preview">/home/node/.openclaw/workspace/givefortuna/
+├── public/
+│   ├── logo.svg
+│   ├── logo-white.svg
+│   ├── logo-dark.svg
+│   ├── logo-compact.svg
+│   ├── favicon.svg
+│   ├── twitter-header.svg
+│   └── twitter-profile-photo.svg
+├── FORTUNA_BRAND_GUIDE.md
+├── FORTUNA_BUILD_PLAN.md
+├── FORTUNA_SMART_CONTRACT.md
+├── SOCIAL_MEDIA_TEMPLATES.md
+└── README.md</div>
+    </div>
+  </div>
+</body>
+</html>
