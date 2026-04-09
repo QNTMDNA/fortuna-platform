@@ -1,0 +1,46 @@
+<svg width="600" height="180" viewBox="0 0 600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display:wght@300&display=swap');
+    </style>
+  </defs>
+  
+  <!-- FORTUNA - YSL exact style: ultra-thin, extra-wide letter spacing, elegant serifs -->
+  <text 
+    x="300" 
+    y="80" 
+    font-family="'Playfair Display', 'Cormorant Garamond', 'Bodoni', 'Didot', serif" 
+    font-size="52" 
+    font-weight="300" 
+    letter-spacing="28" 
+    text-anchor="middle" 
+    fill="#FFFFFF"
+    style="text-transform: uppercase;">
+    FORTUNA
+  </text>
+  
+  <!-- Signature ultra-thin line -->
+  <line 
+    x1="120" 
+    y1="105" 
+    x2="480" 
+    y2="105" 
+    stroke="#FFFFFF" 
+    stroke-width="0.5" 
+    opacity="0.6"/>
+  
+  <!-- Refined tagline -->
+  <text 
+    x="300" 
+    y="135" 
+    font-family="'Helvetica Neue', 'Arial', sans-serif" 
+    font-size="10" 
+    font-weight="300" 
+    letter-spacing="10" 
+    text-anchor="middle" 
+    fill="#FFFFFF"
+    opacity="0.6"
+    style="text-transform: uppercase;">
+    GIVEFORTUNA.IO
+  </text>
+</svg>
