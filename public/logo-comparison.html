@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortuna Logo Comparison</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 6px;
+      margin-bottom: 40px;
+      text-align: center;
+      opacity: 0.9;
+    }
+    
+    .logo-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+    
+    .logo-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    
+    .logo-title {
+      padding: 20px 24px;
+      background: rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .logo-title h2 {
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      color: #a78bfa;
+      margin-bottom: 6px;
+    }
+    
+    .logo-title p {
+      font-size: 12px;
+      opacity: 0.5;
+    }
+    
+    .logo-display {
+      padding: 60px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 250px;
+      background: linear-gradient(135deg, #581c87 0%, #0f172a 100%);
+    }
+    
+    .logo-display img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .logo-display object {
+      width: 100%;
+      max-width: 700px;
+      height: 150px;
+    }
+    
+    .download-btn {
+      display: block;
+      margin: 20px;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #9333ea 0%, #ec4899 100%);
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 12px;
+      letter-spacing: 2px;
+      transition: opacity 0.2s;
+    }
+    
+    .download-btn:hover {
+      opacity: 0.8;
+    }
+    
+    .note {
+      padding: 24px;
+      background: rgba(167, 139, 250, 0.1);
+      border: 1px solid rgba(167, 139, 250, 0.2);
+      border-radius: 8px;
+      font-size: 13px;
+      line-height: 1.6;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FORTUNA LOGO VARIATIONS</h1>
+    
+    <div class="logo-grid">
+      <!-- Current Logo -->
+      <div class="logo-card">
+        <div class="logo-title">
+          <h2>CURRENT (ORIGINAL)</h2>
+          <p>Standard serif, moderate spacing</p>
+        </div>
+        <div class="logo-display">
+          <object data="/logo.svg" type="image/svg+xml" style="width: 400px; height: 120px;"></object>
+        </div>
+        <a href="/logo.svg" download class="download-btn">DOWNLOAD SVG</a>
+      </div>
+      
+      <!-- YSL V2 -->
+      <div class="logo-card">
+        <div class="logo-title">
+          <h2>VERSION 1: YSL-INSPIRED ⭐</h2>
+          <p>Ultra-thin serif, wide spacing, signature line</p>
+        </div>
+        <div class="logo-display">
+          <object data="/logo-ysl-v2.svg" type="image/svg+xml" style="width: 700px; height: 140px;"></object>
+        </div>
+        <a href="/logo-ysl-v2.svg" download class="download-btn">DOWNLOAD SVG</a>
+      </div>
+      
+      <!-- Ultra Minimal -->
+      <div class="logo-card">
+        <div class="logo-title">
+          <h2>VERSION 2: ULTRA-MINIMAL 🎯</h2>
+          <p>Wordmark only, maximum elegance</p>
+        </div>
+        <div class="logo-display">
+          <object data="/logo-ultra-minimal.svg" type="image/svg+xml" style="width: 800px; height: 100px;"></object>
+        </div>
+        <a href="/logo-ultra-minimal.svg" download class="download-btn">DOWNLOAD SVG</a>
+      </div>
+    </div>
+    
+    <div class="note">
+      <strong>YSL Aesthetic:</strong> Ultra-thin serif fonts with generous letter spacing. 
+      Each letter is spaced individually (F O R T U N A) for maximum elegance and visual breathing room.
+      This creates the signature luxury brand look - minimal, confident, timeless.
+    </div>
+  </div>
+</body>
+</html>
