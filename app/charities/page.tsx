@@ -38,7 +38,7 @@ export default function CharitiesPage() {
             Why Partner With Fortuna
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/20">
+            <div className="p-8 bg-slate-900/50 rounded-xl border border-white/20">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-bold mb-3">Increased Donations</h3>
               <p className="text-gray-300">
@@ -46,7 +46,7 @@ export default function CharitiesPage() {
               </p>
             </div>
             
-            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/20">
+            <div className="p-8 bg-slate-900/50 rounded-xl border border-white/20">
               <div className="text-4xl mb-4">🌍</div>
               <h3 className="text-xl font-bold mb-3">Global Reach</h3>
               <p className="text-gray-300">
@@ -54,7 +54,7 @@ export default function CharitiesPage() {
               </p>
             </div>
             
-            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/20">
+            <div className="p-8 bg-slate-900/50 rounded-xl border border-white/20">
               <div className="text-4xl mb-4">✨</div>
               <h3 className="text-xl font-bold mb-3">100% Transparency</h3>
               <p className="text-gray-300">
@@ -139,7 +139,7 @@ export default function CharitiesPage() {
             Requirements
           </h2>
           <div className="space-y-6">
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
+            <div className="p-6 bg-slate-900/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">501(c)(3) Status</h3>
@@ -149,7 +149,7 @@ export default function CharitiesPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
+            <div className="p-6 bg-slate-900/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">Crypto Wallet</h3>
@@ -159,7 +159,7 @@ export default function CharitiesPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
+            <div className="p-6 bg-slate-900/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">Mission Alignment</h3>
@@ -169,7 +169,7 @@ export default function CharitiesPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
+            <div className="p-6 bg-slate-900/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">Marketing Support</h3>
@@ -224,7 +224,7 @@ export default function CharitiesPage() {
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
+            <details className="p-6 bg-slate-900/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 What is the platform fee?
               </summary>
@@ -233,7 +233,7 @@ export default function CharitiesPage() {
               </p>
             </details>
 
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
+            <details className="p-6 bg-slate-900/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 How long does verification take?
               </summary>
@@ -242,7 +242,7 @@ export default function CharitiesPage() {
               </p>
             </details>
 
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
+            <details className="p-6 bg-slate-900/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 Do we need crypto experience?
               </summary>
@@ -251,7 +251,7 @@ export default function CharitiesPage() {
               </p>
             </details>
 
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
+            <details className="p-6 bg-slate-900/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 Can we convert crypto to fiat?
               </summary>

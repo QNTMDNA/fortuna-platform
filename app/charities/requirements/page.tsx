@@ -34,7 +34,7 @@ export default function RequirementsPage() {
                   <p className="text-gray-300 mb-4">
                     Your organization must be registered as a 501(c)(3) nonprofit in the United States, or equivalent in other countries (we support international charities on a case-by-case basis).
                   </p>
-                  <div className="p-4 bg-slate-800/50 rounded-lg">
+                  <div className="p-4 bg-slate-900/50 rounded-lg">
                     <p className="text-sm text-slate-300 mb-2"><strong>What we'll ask for:</strong></p>
                     <ul className="text-sm text-gray-300 space-y-1">
                       <li>• EIN (Employer Identification Number)</li>
@@ -80,13 +80,13 @@ export default function RequirementsPage() {
                     You need a crypto wallet to receive donations. Don't have one? No problem—we'll help you set it up in 15 minutes.
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
-                    <div className="p-4 bg-slate-800/50 rounded-lg">
+                    <div className="p-4 bg-slate-900/50 rounded-lg">
                       <p className="font-bold text-sm mb-2">Option 1: MetaMask</p>
                       <p className="text-sm text-gray-300">
                         Browser extension wallet. Easy to use, widely trusted.
                       </p>
                     </div>
-                    <div className="p-4 bg-slate-800/50 rounded-lg">
+                    <div className="p-4 bg-slate-900/50 rounded-lg">
                       <p className="font-bold text-sm mb-2">Option 2: Coinbase Wallet</p>
                       <p className="text-sm text-gray-300">
                         Mobile wallet with fiat conversion built-in.
@@ -183,7 +183,7 @@ export default function RequirementsPage() {
                   <p className="text-gray-300 mb-4">
                     Commitment to promote your campaign through your channels.
                   </p>
-                  <div className="p-4 bg-slate-800/50 rounded-lg">
+                  <div className="p-4 bg-slate-900/50 rounded-lg">
                     <p className="text-sm text-slate-300 mb-2"><strong>We ask that you:</strong></p>
                     <ul className="text-sm text-gray-300 space-y-2">
                       <li>• Email your donor list (at least 2 times during campaign)</li>

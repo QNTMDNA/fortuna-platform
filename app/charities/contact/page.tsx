@@ -61,7 +61,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-900 text-white placeholder:text-gray-500 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="John Doe"
                 />
               </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-900 text-white placeholder:text-gray-500 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="john@charity.org"
                 />
               </div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-900 text-white placeholder:text-gray-500 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="Make-A-Wish Foundation"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 </label>
                 <select
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-900 text-white placeholder:text-gray-500 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                 >
                   <option value="">Select a subject...</option>
                   <option value="partnership">Partnership Inquiry</option>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                 <textarea
                   required
                   rows={6}
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-900 text-white placeholder:text-gray-500 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Tell us how we can help..."
                 />
               </div>
