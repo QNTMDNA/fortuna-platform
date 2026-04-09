@@ -13,11 +13,11 @@ export default function PartnerPage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-slate-950 flex items-center justify-center px-6">
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-6">
         <div className="max-w-md text-center">
           <div className="text-6xl mb-6">✅</div>
           <h1 className="text-3xl font-bold mb-4">Application Submitted!</h1>
-          <p className="text-slate-400 mb-8">
+          <p className="text-gray-300 mb-8">
             Thank you for your interest in partnering with Fortuna. We'll review your application and get back to you within 48 hours.
           </p>
           <a
@@ -32,7 +32,7 @@ export default function PartnerPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
       <div className="max-w-3xl mx-auto">
         <div className="mb-12">
           <a
@@ -44,7 +44,7 @@ export default function PartnerPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Become a Partner Charity
           </h1>
-          <p className="text-xl text-slate-400">
+          <p className="text-xl text-gray-300">
             Join the first transparent, gamified fundraising platform on blockchain.
           </p>
         </div>
@@ -62,7 +62,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="Make-A-Wish Foundation"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="XX-XXXXXXX"
                 />
               </div>
@@ -86,7 +86,7 @@ export default function PartnerPage() {
                 <input
                   type="url"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="https://makeawish.org"
                 />
               </div>
@@ -98,7 +98,7 @@ export default function PartnerPage() {
                 <textarea
                   required
                   rows={4}
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Describe your organization's mission..."
                 />
               </div>
@@ -117,7 +117,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -128,7 +128,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -139,7 +139,7 @@ export default function PartnerPage() {
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -149,7 +149,7 @@ export default function PartnerPage() {
                 </label>
                 <input
                   type="tel"
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -160,7 +160,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="e.g., Development Director"
                 />
               </div>
@@ -178,7 +178,7 @@ export default function PartnerPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="e.g., $10,000 to fund 5 wishes"
                 />
               </div>
@@ -187,7 +187,7 @@ export default function PartnerPage() {
                 <label className="block text-sm font-semibold mb-2">
                   Preferred Prize Type
                 </label>
-                <select className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none">
+                <select className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none">
                   <option>50/50 Draw (winner gets 50%, charity gets 50%)</option>
                   <option>Fixed Prize (e.g., $5,000 to winner, rest to charity)</option>
                   <option>Donated Prize (partner provides prize, all funds to charity)</option>
@@ -200,7 +200,7 @@ export default function PartnerPage() {
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Tell us more about your campaign idea, timeline, or any questions..."
                 />
               </div>
@@ -262,7 +262,7 @@ export default function PartnerPage() {
             </a>
           </div>
 
-          <p className="text-sm text-slate-500 text-center">
+          <p className="text-sm text-gray-400 text-center">
             By submitting, you agree to our Terms of Service and Privacy Policy.
             We'll review your application within 48 hours.
           </p>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function RequirementsPage() {
   return (
-    <div className="min-h-screen bg-slate-950 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-12">
           <Link
@@ -16,7 +16,7 @@ export default function RequirementsPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Partner Requirements
           </h1>
-          <p className="text-xl text-slate-400">
+          <p className="text-xl text-gray-300">
             What your organization needs to launch a campaign on Fortuna.
           </p>
         </div>
@@ -31,12 +31,12 @@ export default function RequirementsPage() {
                 <div className="text-3xl">📋</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">501(c)(3) Tax-Exempt Status</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Your organization must be registered as a 501(c)(3) nonprofit in the United States, or equivalent in other countries (we support international charities on a case-by-case basis).
                   </p>
-                  <div className="p-4 bg-slate-900/50 rounded-lg">
+                  <div className="p-4 bg-slate-800/50 rounded-lg">
                     <p className="text-sm text-slate-300 mb-2"><strong>What we'll ask for:</strong></p>
-                    <ul className="text-sm text-slate-400 space-y-1">
+                    <ul className="text-sm text-gray-300 space-y-1">
                       <li>• EIN (Employer Identification Number)</li>
                       <li>• IRS determination letter</li>
                       <li>• Proof of good standing with state</li>
@@ -51,10 +51,10 @@ export default function RequirementsPage() {
                 <div className="text-3xl">⚖️</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Compliance & Good Standing</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Your organization must be in good standing with all regulatory bodies and have no significant legal issues.
                   </p>
-                  <ul className="text-sm text-slate-400 space-y-2">
+                  <ul className="text-sm text-gray-300 space-y-2">
                     <li>• Up-to-date IRS Form 990 filings</li>
                     <li>• No recent sanctions or violations</li>
                     <li>• Active registration in states where soliciting donations</li>
@@ -76,24 +76,24 @@ export default function RequirementsPage() {
                 <div className="text-3xl">💼</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Crypto Wallet (We Can Help!)</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     You need a crypto wallet to receive donations. Don't have one? No problem—we'll help you set it up in 15 minutes.
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
-                    <div className="p-4 bg-slate-900/50 rounded-lg">
+                    <div className="p-4 bg-slate-800/50 rounded-lg">
                       <p className="font-bold text-sm mb-2">Option 1: MetaMask</p>
-                      <p className="text-sm text-slate-400">
+                      <p className="text-sm text-gray-300">
                         Browser extension wallet. Easy to use, widely trusted.
                       </p>
                     </div>
-                    <div className="p-4 bg-slate-900/50 rounded-lg">
+                    <div className="p-4 bg-slate-800/50 rounded-lg">
                       <p className="font-bold text-sm mb-2">Option 2: Coinbase Wallet</p>
-                      <p className="text-sm text-slate-400">
+                      <p className="text-sm text-gray-300">
                         Mobile wallet with fiat conversion built-in.
                       </p>
                     </div>
                   </div>
-                  <p className="text-sm text-slate-500 mt-4">
+                  <p className="text-sm text-gray-400 mt-4">
                     💡 <strong>We recommend:</strong> Coinbase Wallet for easy conversion to USD.
                   </p>
                 </div>
@@ -105,10 +105,10 @@ export default function RequirementsPage() {
                 <div className="text-3xl">🖼️</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Campaign Assets</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Basic materials to promote your campaign. We can help create these if needed.
                   </p>
-                  <ul className="text-sm text-slate-400 space-y-2">
+                  <ul className="text-sm text-gray-300 space-y-2">
                     <li>• Organization logo (PNG, transparent background preferred)</li>
                     <li>• 2-3 high-quality photos of your cause/impact</li>
                     <li>• Brief description of your mission (200-300 words)</li>
@@ -130,7 +130,7 @@ export default function RequirementsPage() {
                 <div className="text-3xl">🎯</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Mission Alignment</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Your cause should align with Fortuna's values: transparency, impact, and innovation in philanthropy.
                   </p>
                   <div className="p-4 bg-green-900/20 border border-green-500/20 rounded-lg">
@@ -162,10 +162,10 @@ export default function RequirementsPage() {
                 <div className="text-3xl">📊</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Transparency & Reporting</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Willingness to share impact metrics and how funds are used.
                   </p>
-                  <ul className="text-sm text-slate-400 space-y-2">
+                  <ul className="text-sm text-gray-300 space-y-2">
                     <li>• Publicly available financial statements (Form 990)</li>
                     <li>• Charity Navigator or GuideStar profile (preferred)</li>
                     <li>• Impact reporting (how donations are used)</li>
@@ -180,12 +180,12 @@ export default function RequirementsPage() {
                 <div className="text-3xl">📣</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Marketing Participation</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Commitment to promote your campaign through your channels.
                   </p>
-                  <div className="p-4 bg-slate-900/50 rounded-lg">
+                  <div className="p-4 bg-slate-800/50 rounded-lg">
                     <p className="text-sm text-slate-300 mb-2"><strong>We ask that you:</strong></p>
-                    <ul className="text-sm text-slate-400 space-y-2">
+                    <ul className="text-sm text-gray-300 space-y-2">
                       <li>• Email your donor list (at least 2 times during campaign)</li>
                       <li>• Post on social media (minimum 3-5 posts)</li>
                       <li>• Feature campaign on your website</li>
@@ -211,10 +211,10 @@ export default function RequirementsPage() {
                 <div className="text-3xl">💳</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Platform Fee</h3>
-                  <p className="text-slate-400 mb-4">
+                  <p className="text-gray-300 mb-4">
                     Fortuna charges a 10% platform fee on all donations. This covers:
                   </p>
-                  <ul className="text-sm text-slate-400 space-y-2">
+                  <ul className="text-sm text-gray-300 space-y-2">
                     <li>• Smart contract gas fees</li>
                     <li>• Chainlink VRF (randomness) costs</li>
                     <li>• Platform development & maintenance</li>
@@ -234,7 +234,7 @@ export default function RequirementsPage() {
                 <div className="text-3xl">🔄</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">No Upfront Costs</h3>
-                  <p className="text-slate-400">
+                  <p className="text-gray-300">
                     Zero setup fees, zero monthly fees. We only earn when you do (via the 10% platform fee). There's no risk or financial commitment to apply.
                   </p>
                 </div>
@@ -269,7 +269,7 @@ export default function RequirementsPage() {
         {/* CTA */}
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-6">Meet the Requirements?</h2>
-          <p className="text-slate-400 mb-8">
+          <p className="text-gray-300 mb-8">
             Apply today and start raising funds on blockchain in 2 weeks.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

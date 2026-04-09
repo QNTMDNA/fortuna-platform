@@ -14,11 +14,11 @@ export default function ContactPage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-slate-950 flex items-center justify-center px-6">
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-6">
         <div className="max-w-md text-center">
           <div className="text-6xl mb-6">✉️</div>
           <h1 className="text-3xl font-bold mb-4">Message Sent!</h1>
-          <p className="text-slate-400 mb-8">
+          <p className="text-gray-300 mb-8">
             Thank you for reaching out. We'll get back to you within 24 hours.
           </p>
           <Link
@@ -33,7 +33,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="mb-12 text-center">
           <Link
@@ -45,7 +45,7 @@ export default function ContactPage() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Get in Touch
           </h1>
-          <p className="text-xl text-slate-400">
+          <p className="text-xl text-gray-300">
             Have questions? We're here to help.
           </p>
         </div>
@@ -61,7 +61,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="John Doe"
                 />
               </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="john@charity.org"
                 />
               </div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="Make-A-Wish Foundation"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 </label>
                 <select
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
                 >
                   <option value="">Select a subject...</option>
                   <option value="partnership">Partnership Inquiry</option>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                 <textarea
                   required
                   rows={6}
-                  className="w-full px-4 py-3 bg-slate-900 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Tell us how we can help..."
                 />
               </div>
@@ -125,7 +125,7 @@ export default function ContactPage() {
                 Send Message
               </button>
 
-              <p className="text-sm text-slate-500 text-center">
+              <p className="text-sm text-gray-400 text-center">
                 We typically respond within 24 hours.
               </p>
             </form>
@@ -189,7 +189,7 @@ export default function ContactPage() {
                   <div className="font-semibold text-purple-400 mb-1">
                     How long does verification take?
                   </div>
-                  <p className="text-slate-400">
+                  <p className="text-gray-300">
                     24-48 hours for most applications.
                   </p>
                 </div>
@@ -198,7 +198,7 @@ export default function ContactPage() {
                   <div className="font-semibold text-purple-400 mb-1">
                     What's the platform fee?
                   </div>
-                  <p className="text-slate-400">
+                  <p className="text-gray-300">
                     10% of donations. No upfront costs.
                   </p>
                 </div>
@@ -207,7 +207,7 @@ export default function ContactPage() {
                   <div className="font-semibold text-purple-400 mb-1">
                     Do I need crypto experience?
                   </div>
-                  <p className="text-slate-400">
+                  <p className="text-gray-300">
                     No! We handle all technical setup.
                   </p>
                 </div>
@@ -216,7 +216,7 @@ export default function ContactPage() {
                   <div className="font-semibold text-purple-400 mb-1">
                     Can I convert crypto to USD?
                   </div>
-                  <p className="text-slate-400">
+                  <p className="text-gray-300">
                     Yes, we can help you set that up.
                   </p>
                 </div>
@@ -240,7 +240,7 @@ export default function ContactPage() {
                   <span className="font-semibold">Closed</span>
                 </div>
               </div>
-              <p className="text-xs text-slate-400 mt-3">
+              <p className="text-xs text-gray-300 mt-3">
                 Email & form submissions are answered within 24 hours, even on weekends.
               </p>
             </div>
@@ -248,7 +248,7 @@ export default function ContactPage() {
             {/* Schedule Call */}
             <div className="p-6 bg-white/5 rounded-xl border border-white/10">
               <h3 className="text-lg font-bold mb-3">Schedule a Call</h3>
-              <p className="text-sm text-slate-400 mb-4">
+              <p className="text-sm text-gray-300 mb-4">
                 Prefer to talk? Book a 30-minute intro call with our partnerships team.
               </p>
               <a
