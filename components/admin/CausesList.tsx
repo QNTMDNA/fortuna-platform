@@ -1,8 +1,18 @@
 'use client';
 
+interface Cause {
+  id: string;
+  name: string;
+  charity: string;
+  totalDonated: string;
+  entries: number;
+  drawDate: string;
+  active: boolean;
+}
+
 export function CausesList() {
   // TODO: Fetch from Supabase causes table
-  const causes = [
+  const causes: Cause[] = [
     // Sample data structure
     // {
     //   id: '1',
