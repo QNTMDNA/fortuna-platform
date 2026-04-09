@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortuna Logo Comparison</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: white;
+      padding: 60px 40px;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 28px;
+      font-weight: 300;
+      letter-spacing: 8px;
+      margin-bottom: 60px;
+      text-align: center;
+    }
+    
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 60px;
+    }
+    
+    .logo-card {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    
+    .logo-header {
+      padding: 24px 32px;
+      background: rgba(255,255,255,0.05);
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .logo-header h2 {
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      color: #a78bfa;
+      margin-bottom: 8px;
+    }
+    
+    .logo-header p {
+      font-size: 14px;
+      opacity: 0.6;
+      line-height: 1.6;
+    }
+    
+    .logo-display {
+      padding: 80px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 300px;
+      background: linear-gradient(135deg, #581c87 0%, #0f172a 100%);
+    }
+    
+    .logo-display img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .logo-details {
+      padding: 32px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+    }
+    
+    .detail-item {
+      padding: 16px;
+      background: rgba(0,0,0,0.2);
+      border-radius: 8px;
+    }
+    
+    .detail-label {
+      font-size: 11px;
+      letter-spacing: 2px;
+      opacity: 0.5;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+    
+    .detail-value {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    
+    .reference {
+      margin-top: 80px;
+      padding: 40px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+    }
+    
+    .reference h3 {
+      font-size: 16px;
+      letter-spacing: 4px;
+      color: #a78bfa;
+      margin-bottom: 24px;
+    }
+    
+    .reference-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 32px;
+    }
+    
+    .reference-item {
+      text-align: center;
+    }
+    
+    .reference-item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+    }
+    
+    .reference-caption {
+      font-size: 12px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>FORTUNA LOGO VARIATIONS</h1>
+    
+    <div class="grid">
+      <!-- Original Logo -->
+      <div class="logo-card">
+        <div class="logo-header">
+          <h2>CURRENT LOGO</h2>
+          <p>Original design with tagline and dividing line</p>
+        </div>
+        <div class="logo-display">
+          <img src="/logo.svg" alt="Current Fortuna Logo">
+        </div>
+        <div class="logo-details">
+          <div class="detail-item">
+            <div class="detail-label">Font</div>
+            <div class="detail-value">Generic Serif</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Letter Spacing</div>
+            <div class="detail-value">8px (Standard)</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Style</div>
+            <div class="detail-value">With tagline + line</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">File</div>
+            <div class="detail-value">logo.svg</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- New Logo -->
+      <div class="logo-card">
+        <div class="logo-header">
+          <h2>VERSION 1: REFINED</h2>
+          <p>Elegant serif with wider spacing, maintains tagline</p>
+        </div>
+        <div class="logo-display">
+          <img src="/logo-new.svg" alt="New Fortuna Logo">
+        </div>
+        <div class="logo-details">
+          <div class="detail-item">
+            <div class="detail-label">Font</div>
+            <div class="detail-value">Cormorant Garamond</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Letter Spacing</div>
+            <div class="detail-value">24px (Wide)</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Style</div>
+            <div class="detail-value">Balanced elegance</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">File</div>
+            <div class="detail-value">logo-new.svg</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- YSL Style -->
+      <div class="logo-card">
+        <div class="logo-header">
+          <h2>VERSION 2: YSL-INSPIRED ⭐</h2>
+          <p>Closest to YSL aesthetic - ultra-thin serif, maximum elegance</p>
+        </div>
+        <div class="logo-display">
+          <img src="/logo-ysl-style.svg" alt="YSL Style Fortuna Logo">
+        </div>
+        <div class="logo-details">
+          <div class="detail-item">
+            <div class="detail-label">Font</div>
+            <div class="detail-value">Playfair Display</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Letter Spacing</div>
+            <div class="detail-value">28px (Extra-Wide)</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Style</div>
+            <div class="detail-value">Haute couture luxury</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">File</div>
+            <div class="detail-value">logo-ysl-style.svg</div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Minimal -->
+      <div class="logo-card">
+        <div class="logo-header">
+          <h2>VERSION 3: ULTRA-MINIMAL 🎯</h2>
+          <p>Pure wordmark only - maximum impact, no distractions</p>
+        </div>
+        <div class="logo-display">
+          <img src="/logo-minimal.svg" alt="Minimal Fortuna Logo">
+        </div>
+        <div class="logo-details">
+          <div class="detail-item">
+            <div class="detail-label">Font</div>
+            <div class="detail-value">Bodoni Moda</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Letter Spacing</div>
+            <div class="detail-value">32px (Ultra-Wide)</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Style</div>
+            <div class="detail-value">Wordmark only</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">File</div>
+            <div class="detail-value">logo-minimal.svg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="reference">
+      <h3>YSL REFERENCE (YOUR INSPIRATION)</h3>
+      <p style="opacity: 0.6; margin-bottom: 32px;">
+        All new versions follow YSL's signature aesthetic:<br>
+        Ultra-thin serif fonts, generous letter spacing, minimal embellishment, maximum elegance.
+      </p>
+      <div class="reference-grid">
+        <div class="reference-item">
+          <div class="reference-caption">
+            <strong>Thin Serif</strong><br>
+            Delicate, refined letterforms
+          </div>
+        </div>
+        <div class="reference-item">
+          <div class="reference-caption">
+            <strong>Wide Letter Spacing</strong><br>
+            Generous breathing room
+          </div>
+        </div>
+        <div class="reference-item">
+          <div class="reference-caption">
+            <strong>Minimal Design</strong><br>
+            No unnecessary elements
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
