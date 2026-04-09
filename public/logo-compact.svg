@@ -1,5 +1,5 @@
 <svg width="280" height="60" viewBox="0 0 280 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Helvetica Neue Bold - Compact, original spacing -->
+  <!-- Helvetica Neue Bold - Compact, 50% reduced spacing -->
   
   <text 
     x="140" 
@@ -7,7 +7,7 @@
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
     font-size="28" 
     font-weight="700" 
-    letter-spacing="6" 
+    letter-spacing="3" 
     text-anchor="middle" 
     fill="#FFFFFF">
     FORTUNA

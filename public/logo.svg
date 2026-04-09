@@ -1,14 +1,14 @@
 <svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Helvetica Neue Bold - Original spacing (no individual letter spacing) -->
+  <!-- Helvetica Neue Bold - 50% reduced spacing -->
   
-  <!-- FORTUNA text -->
+  <!-- FORTUNA text (letter-spacing reduced from 8px to 4px) -->
   <text 
     x="200" 
     y="50" 
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
     font-size="36" 
     font-weight="700" 
-    letter-spacing="8" 
+    letter-spacing="4" 
     text-anchor="middle" 
     fill="white">
     FORTUNA
@@ -17,14 +17,14 @@
   <!-- Dividing line -->
   <line x1="80" y1="65" x2="320" y2="65" stroke="white" stroke-width="0.5"/>
   
-  <!-- GIVEFORTUNA.IO text -->
+  <!-- GIVEFORTUNA.IO text (letter-spacing reduced from 6px to 3px) -->
   <text 
     x="200" 
     y="85" 
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
     font-size="12" 
     font-weight="400" 
-    letter-spacing="6" 
+    letter-spacing="3" 
     text-anchor="middle" 
     fill="white">
     GIVEFORTUNA.IO

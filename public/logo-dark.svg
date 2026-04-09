@@ -1,5 +1,5 @@
 <svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Helvetica Neue Bold - Dark version, original spacing -->
+  <!-- Helvetica Neue Bold - Dark, 50% reduced spacing -->
   
   <text 
     x="200" 
@@ -7,7 +7,7 @@
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
     font-size="36" 
     font-weight="700" 
-    letter-spacing="8" 
+    letter-spacing="4" 
     text-anchor="middle" 
     fill="#000000">
     FORTUNA
@@ -21,7 +21,7 @@
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
     font-size="12" 
     font-weight="400" 
-    letter-spacing="6" 
+    letter-spacing="3" 
     text-anchor="middle" 
     fill="#000000">
     GIVEFORTUNA.IO
