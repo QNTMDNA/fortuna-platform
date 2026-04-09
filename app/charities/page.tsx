@@ -1,10 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import { Header } from '@/components/Header';
+import { Footer } from '@/components/Footer';
 
 export default function CharitiesPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+      <Header />
       {/* Hero Section */}
       <section className="relative py-32 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -262,6 +265,8 @@ export default function CharitiesPage() {
           </div>
         </div>
       </section>
+      
+      <Footer />
     </div>
   );
 }
