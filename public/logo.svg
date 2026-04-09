@@ -1,41 +1,32 @@
-<svg width="800" height="140" viewBox="0 0 800 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Helvetica Neue Bold - Main Logo -->
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Helvetica Neue Bold - Original spacing (no individual letter spacing) -->
   
-  <!-- FORTUNA - Bold, wide spacing -->
+  <!-- FORTUNA text -->
   <text 
-    x="400" 
-    y="75" 
+    x="200" 
+    y="50" 
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
-    font-size="56" 
+    font-size="36" 
     font-weight="700" 
-    letter-spacing="30" 
+    letter-spacing="8" 
     text-anchor="middle" 
-    fill="#FFFFFF"
-    style="text-transform: uppercase;">
-    F O R T U N A
+    fill="white">
+    FORTUNA
   </text>
   
   <!-- Dividing line -->
-  <line 
-    x1="180" 
-    y1="95" 
-    x2="620" 
-    y2="95" 
-    stroke="#FFFFFF" 
-    stroke-width="0.5" 
-    opacity="0.6"/>
+  <line x1="80" y1="65" x2="320" y2="65" stroke="white" stroke-width="0.5"/>
   
-  <!-- Tagline -->
+  <!-- GIVEFORTUNA.IO text -->
   <text 
-    x="400" 
-    y="120" 
+    x="200" 
+    y="85" 
     font-family="'Helvetica Neue', 'Helvetica', 'Arial', sans-serif" 
-    font-size="10" 
+    font-size="12" 
     font-weight="400" 
-    letter-spacing="12" 
+    letter-spacing="6" 
     text-anchor="middle" 
-    fill="#FFFFFF"
-    opacity="0.5">
-    G I V E F O R T U N A . I O
+    fill="white">
+    GIVEFORTUNA.IO
   </text>
 </svg>
