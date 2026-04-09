@@ -13,7 +13,7 @@ export default function PartnerPage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-6">
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center px-6">
         <div className="max-w-md text-center">
           <div className="text-6xl mb-6">✅</div>
           <h1 className="text-3xl font-bold mb-4">Application Submitted!</h1>
@@ -32,7 +32,7 @@ export default function PartnerPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-20 px-6">
       <div className="max-w-3xl mx-auto">
         <div className="mb-12">
           <a
@@ -51,7 +51,7 @@ export default function PartnerPage() {
 
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Organization Info */}
-          <div className="p-8 bg-white/5 rounded-xl border border-white/10">
+          <div className="p-8 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
             <h2 className="text-2xl font-bold mb-6">Organization Information</h2>
             
             <div className="space-y-4">
@@ -62,7 +62,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="Make-A-Wish Foundation"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="XX-XXXXXXX"
                 />
               </div>
@@ -86,7 +86,7 @@ export default function PartnerPage() {
                 <input
                   type="url"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="https://makeawish.org"
                 />
               </div>
@@ -98,7 +98,7 @@ export default function PartnerPage() {
                 <textarea
                   required
                   rows={4}
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Describe your organization's mission..."
                 />
               </div>
@@ -106,7 +106,7 @@ export default function PartnerPage() {
           </div>
 
           {/* Contact Person */}
-          <div className="p-8 bg-white/5 rounded-xl border border-white/10">
+          <div className="p-8 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
             <h2 className="text-2xl font-bold mb-6">Primary Contact</h2>
             
             <div className="grid md:grid-cols-2 gap-4">
@@ -117,7 +117,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -128,7 +128,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -139,7 +139,7 @@ export default function PartnerPage() {
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -149,7 +149,7 @@ export default function PartnerPage() {
                 </label>
                 <input
                   type="tel"
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                 />
               </div>
 
@@ -160,7 +160,7 @@ export default function PartnerPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="e.g., Development Director"
                 />
               </div>
@@ -168,7 +168,7 @@ export default function PartnerPage() {
           </div>
 
           {/* Campaign Details */}
-          <div className="p-8 bg-white/5 rounded-xl border border-white/10">
+          <div className="p-8 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
             <h2 className="text-2xl font-bold mb-6">Campaign Details</h2>
             
             <div className="space-y-4">
@@ -178,7 +178,7 @@ export default function PartnerPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="e.g., $10,000 to fund 5 wishes"
                 />
               </div>
@@ -187,7 +187,7 @@ export default function PartnerPage() {
                 <label className="block text-sm font-semibold mb-2">
                   Preferred Prize Type
                 </label>
-                <select className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none">
+                <select className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none">
                   <option>50/50 Draw (winner gets 50%, charity gets 50%)</option>
                   <option>Fixed Prize (e.g., $5,000 to winner, rest to charity)</option>
                   <option>Donated Prize (partner provides prize, all funds to charity)</option>
@@ -200,7 +200,7 @@ export default function PartnerPage() {
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Tell us more about your campaign idea, timeline, or any questions..."
                 />
               </div>
@@ -208,7 +208,7 @@ export default function PartnerPage() {
           </div>
 
           {/* Crypto Experience */}
-          <div className="p-8 bg-white/5 rounded-xl border border-white/10">
+          <div className="p-8 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
             <h2 className="text-2xl font-bold mb-6">Crypto Experience</h2>
             
             <div className="space-y-4">
@@ -256,7 +256,7 @@ export default function PartnerPage() {
             </button>
             <a
               href="/charities"
-              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/5 transition-colors"
+              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/10 backdrop-blur-lg transition-colors"
             >
               Cancel
             </a>

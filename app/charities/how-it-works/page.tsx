@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function HowItWorksPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-12">
           <Link
@@ -30,7 +30,7 @@ export default function HowItWorksPage() {
             <p className="text-gray-300 mb-4">
               Submit your charity application through our partner portal. We'll verify your 501(c)(3) status and review your mission.
             </p>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="font-bold mb-3">What We Need:</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>• EIN (Tax ID)</li>
@@ -53,26 +53,26 @@ export default function HowItWorksPage() {
               Work with our team to design your cause. We'll help you choose the right structure to maximize donations.
             </p>
             <div className="grid md:grid-cols-3 gap-4 mb-4">
-              <div className="p-4 bg-white/5 rounded-lg border border-white/10">
+              <div className="p-4 bg-white/10 backdrop-blur-lg rounded-lg border border-white/20">
                 <h4 className="font-bold mb-2">50/50 Draw</h4>
                 <p className="text-sm text-gray-300">
                   Winner gets 50% of pool, charity gets 50%. Great for large prizes.
                 </p>
               </div>
-              <div className="p-4 bg-white/5 rounded-lg border border-white/10">
+              <div className="p-4 bg-white/10 backdrop-blur-lg rounded-lg border border-white/20">
                 <h4 className="font-bold mb-2">Fixed Prize</h4>
                 <p className="text-sm text-gray-300">
                   Winner gets fixed amount (e.g., $5,000), rest goes to charity.
                 </p>
               </div>
-              <div className="p-4 bg-white/5 rounded-lg border border-white/10">
+              <div className="p-4 bg-white/10 backdrop-blur-lg rounded-lg border border-white/20">
                 <h4 className="font-bold mb-2">Donated Prize</h4>
                 <p className="text-sm text-gray-300">
                   Partner donates prize, 100% of funds go to charity.
                 </p>
               </div>
             </div>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="font-bold mb-3">You Choose:</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>• Prize type & amount</li>
@@ -94,7 +94,7 @@ export default function HowItWorksPage() {
             <p className="text-gray-300 mb-4">
               We deploy your cause to the blockchain. Every donation will be secured by immutable smart contracts.
             </p>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="font-bold mb-3">What Happens:</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>• Your cause is created on-chain (Base L2)</li>
@@ -116,7 +116,7 @@ export default function HowItWorksPage() {
             <p className="text-gray-300 mb-4">
               Your campaign goes live! Donors can now contribute via crypto wallet.
             </p>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="font-bold mb-3">Marketing Support:</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>• Featured on Fortuna homepage</li>
@@ -138,7 +138,7 @@ export default function HowItWorksPage() {
             <p className="text-gray-300 mb-4">
               On draw day, Chainlink VRF selects a winner using provably fair randomness.
             </p>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="font-bold mb-3">Draw Process:</h3>
               <div className="space-y-3 text-gray-300">
                 <div className="flex gap-3">
@@ -181,7 +181,7 @@ export default function HowItWorksPage() {
             <p className="text-gray-300 mb-4">
               Smart contract automatically distributes funds to winner and charity.
             </p>
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="font-bold mb-3">Automatic Distribution:</h3>
               <ul className="space-y-2 text-gray-300">
                 <li>• Winner receives their prize (ETH/USDC to their wallet)</li>
@@ -239,7 +239,7 @@ export default function HowItWorksPage() {
             </Link>
             <Link
               href="/charities/contact"
-              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/5 transition-colors"
+              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/10 backdrop-blur-lg transition-colors"
             >
               Have Questions? Contact Us
             </Link>

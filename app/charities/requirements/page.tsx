@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function RequirementsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-12">
           <Link
@@ -26,7 +26,7 @@ export default function RequirementsPage() {
           <h2 className="text-3xl font-bold mb-6">Legal Requirements</h2>
           
           <div className="space-y-6">
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">📋</div>
                 <div>
@@ -46,7 +46,7 @@ export default function RequirementsPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">⚖️</div>
                 <div>
@@ -71,7 +71,7 @@ export default function RequirementsPage() {
           <h2 className="text-3xl font-bold mb-6">Technical Requirements</h2>
           
           <div className="space-y-6">
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">💼</div>
                 <div>
@@ -100,7 +100,7 @@ export default function RequirementsPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">🖼️</div>
                 <div>
@@ -125,7 +125,7 @@ export default function RequirementsPage() {
           <h2 className="text-3xl font-bold mb-6">Organizational Requirements</h2>
           
           <div className="space-y-6">
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">🎯</div>
                 <div>
@@ -157,7 +157,7 @@ export default function RequirementsPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">📊</div>
                 <div>
@@ -175,7 +175,7 @@ export default function RequirementsPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">📣</div>
                 <div>
@@ -206,7 +206,7 @@ export default function RequirementsPage() {
           <h2 className="text-3xl font-bold mb-6">Financial Requirements</h2>
           
           <div className="space-y-6">
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">💳</div>
                 <div>
@@ -229,7 +229,7 @@ export default function RequirementsPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <div className="flex gap-4">
                 <div className="text-3xl">🔄</div>
                 <div>
@@ -281,7 +281,7 @@ export default function RequirementsPage() {
             </Link>
             <Link
               href="/charities/contact"
-              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/5 transition-colors"
+              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/10 backdrop-blur-lg transition-colors"
             >
               Have Questions?
             </Link>

@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function CharitiesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       {/* Hero Section */}
       <section className="relative py-32 px-6">
         <div className="max-w-4xl mx-auto text-center">
@@ -23,7 +23,7 @@ export default function CharitiesPage() {
             </Link>
             <Link
               href="/charities/contact"
-              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/5 transition-colors"
+              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/10 backdrop-blur-lg transition-colors"
             >
               Contact Us
             </Link>
@@ -32,13 +32,13 @@ export default function CharitiesPage() {
       </section>
 
       {/* Why Partner Section */}
-      <section className="py-20 px-6 bg-white/5">
+      <section className="py-20 px-6 bg-white/10 backdrop-blur-lg">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Why Partner With Fortuna
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/10">
+            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/20">
               <div className="text-4xl mb-4">💰</div>
               <h3 className="text-xl font-bold mb-3">Increased Donations</h3>
               <p className="text-gray-300">
@@ -46,7 +46,7 @@ export default function CharitiesPage() {
               </p>
             </div>
             
-            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/10">
+            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/20">
               <div className="text-4xl mb-4">🌍</div>
               <h3 className="text-xl font-bold mb-3">Global Reach</h3>
               <p className="text-gray-300">
@@ -54,7 +54,7 @@ export default function CharitiesPage() {
               </p>
             </div>
             
-            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/10">
+            <div className="p-8 bg-slate-800/50 rounded-xl border border-white/20">
               <div className="text-4xl mb-4">✨</div>
               <h3 className="text-xl font-bold mb-3">100% Transparency</h3>
               <p className="text-gray-300">
@@ -133,13 +133,13 @@ export default function CharitiesPage() {
       </section>
 
       {/* Requirements Section */}
-      <section className="py-20 px-6 bg-white/5">
+      <section className="py-20 px-6 bg-white/10 backdrop-blur-lg">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Requirements
           </h2>
           <div className="space-y-6">
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/10 flex gap-4">
+            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">501(c)(3) Status</h3>
@@ -149,7 +149,7 @@ export default function CharitiesPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/10 flex gap-4">
+            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">Crypto Wallet</h3>
@@ -159,7 +159,7 @@ export default function CharitiesPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/10 flex gap-4">
+            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">Mission Alignment</h3>
@@ -169,7 +169,7 @@ export default function CharitiesPage() {
               </div>
             </div>
 
-            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/10 flex gap-4">
+            <div className="p-6 bg-slate-800/50 rounded-xl border border-white/20 flex gap-4">
               <div className="text-2xl">✅</div>
               <div>
                 <h3 className="font-bold mb-2">Marketing Support</h3>
@@ -209,7 +209,7 @@ export default function CharitiesPage() {
             </Link>
             <Link
               href="/charities/contact"
-              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/5 transition-colors"
+              className="px-8 py-4 border border-white/20 rounded-lg font-semibold hover:bg-white/10 backdrop-blur-lg transition-colors"
             >
               Contact Us
             </Link>
@@ -218,13 +218,13 @@ export default function CharitiesPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 px-6 bg-white/5">
+      <section className="py-20 px-6 bg-white/10 backdrop-blur-lg">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Frequently Asked Questions
           </h2>
           <div className="space-y-6">
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/10">
+            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 What is the platform fee?
               </summary>
@@ -233,7 +233,7 @@ export default function CharitiesPage() {
               </p>
             </details>
 
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/10">
+            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 How long does verification take?
               </summary>
@@ -242,7 +242,7 @@ export default function CharitiesPage() {
               </p>
             </details>
 
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/10">
+            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 Do we need crypto experience?
               </summary>
@@ -251,7 +251,7 @@ export default function CharitiesPage() {
               </p>
             </details>
 
-            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/10">
+            <details className="p-6 bg-slate-800/50 rounded-xl border border-white/20">
               <summary className="font-bold cursor-pointer">
                 Can we convert crypto to fiat?
               </summary>

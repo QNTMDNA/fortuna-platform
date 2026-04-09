@@ -14,7 +14,7 @@ export default function ContactPage() {
 
   if (submitted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center px-6">
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center px-6">
         <div className="max-w-md text-center">
           <div className="text-6xl mb-6">✉️</div>
           <h1 className="text-3xl font-bold mb-4">Message Sent!</h1>
@@ -33,7 +33,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 py-20 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="mb-12 text-center">
           <Link
@@ -61,7 +61,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="John Doe"
                 />
               </div>
@@ -73,7 +73,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="john@charity.org"
                 />
               </div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                   placeholder="Make-A-Wish Foundation"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function ContactPage() {
                 </label>
                 <select
                   required
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none"
                 >
                   <option value="">Select a subject...</option>
                   <option value="partnership">Partnership Inquiry</option>
@@ -113,7 +113,7 @@ export default function ContactPage() {
                 <textarea
                   required
                   rows={6}
-                  className="w-full px-4 py-3 bg-slate-800 border border-white/10 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
+                  className="w-full px-4 py-3 bg-slate-800 border border-white/20 rounded-lg focus:border-purple-500 focus:outline-none resize-none"
                   placeholder="Tell us how we can help..."
                 />
               </div>
@@ -134,7 +134,7 @@ export default function ContactPage() {
           {/* Contact Info & FAQ */}
           <div className="space-y-8">
             {/* Direct Contact */}
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="text-xl font-bold mb-4">Other Ways to Reach Us</h3>
               
               <div className="space-y-4">
@@ -181,7 +181,7 @@ export default function ContactPage() {
             </div>
 
             {/* Quick Answers */}
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="text-xl font-bold mb-4">Quick Answers</h3>
               
               <div className="space-y-4 text-sm">
@@ -246,7 +246,7 @@ export default function ContactPage() {
             </div>
 
             {/* Schedule Call */}
-            <div className="p-6 bg-white/5 rounded-xl border border-white/10">
+            <div className="p-6 bg-white/10 backdrop-blur-lg rounded-xl border border-white/20">
               <h3 className="text-lg font-bold mb-3">Schedule a Call</h3>
               <p className="text-sm text-gray-300 mb-4">
                 Prefer to talk? Book a 30-minute intro call with our partnerships team.

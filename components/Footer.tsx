@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function Footer() {
   return (
     <footer className="relative z-10 border-t border-white/10 bg-black/20 px-6 py-12 backdrop-blur-sm">
@@ -6,7 +8,9 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <img src="/logo-compact.svg" alt="Fortuna" className="h-12" />
+              <Link href="/">
+                <img src="/logo-compact.svg" alt="Fortuna" className="h-12" />
+              </Link>
             </div>
             <p className="text-sm text-gray-400">
               The world's first on-chain charitable giving platform.
@@ -17,10 +21,26 @@ export function Footer() {
           <div>
             <h4 className="mb-4 font-semibold text-white">Platform</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-purple-400">How It Works</a></li>
-              <li><a href="#" className="hover:text-purple-400">Active Causes</a></li>
-              <li><a href="#" className="hover:text-purple-400">Past Draws</a></li>
-              <li><a href="#" className="hover:text-purple-400">Verify Results</a></li>
+              <li>
+                <Link href="/#how-it-works" className="hover:text-purple-400 transition-colors">
+                  How It Works
+                </Link>
+              </li>
+              <li>
+                <Link href="/causes" className="hover:text-purple-400 transition-colors">
+                  Active Causes
+                </Link>
+              </li>
+              <li>
+                <Link href="/past-draws" className="hover:text-purple-400 transition-colors">
+                  Past Draws
+                </Link>
+              </li>
+              <li>
+                <Link href="/verify" className="hover:text-purple-400 transition-colors">
+                  Verify Results
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -28,10 +48,26 @@ export function Footer() {
           <div>
             <h4 className="mb-4 font-semibold text-white">For Charities</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-purple-400">Partner With Us</a></li>
-              <li><a href="#" className="hover:text-purple-400">How It Works</a></li>
-              <li><a href="#" className="hover:text-purple-400">Requirements</a></li>
-              <li><a href="#" className="hover:text-purple-400">Contact</a></li>
+              <li>
+                <Link href="/charities/partner" className="hover:text-purple-400 transition-colors">
+                  Partner With Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/charities/how-it-works" className="hover:text-purple-400 transition-colors">
+                  How It Works
+                </Link>
+              </li>
+              <li>
+                <Link href="/charities/requirements" className="hover:text-purple-400 transition-colors">
+                  Requirements
+                </Link>
+              </li>
+              <li>
+                <Link href="/charities/contact" className="hover:text-purple-400 transition-colors">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -39,10 +75,26 @@ export function Footer() {
           <div>
             <h4 className="mb-4 font-semibold text-white">Legal</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-purple-400">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-purple-400">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-purple-400">Disclaimer</a></li>
-              <li><a href="#" className="hover:text-purple-400">FAQ</a></li>
+              <li>
+                <Link href="/terms" className="hover:text-purple-400 transition-colors">
+                  Terms of Service
+                </Link>
+              </li>
+              <li>
+                <Link href="/privacy" className="hover:text-purple-400 transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/disclaimer" className="hover:text-purple-400 transition-colors">
+                  Disclaimer
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="hover:text-purple-400 transition-colors">
+                  FAQ
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -53,10 +105,38 @@ export function Footer() {
             © 2026 Fortuna. All rights reserved.
           </div>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-purple-400">Twitter</a>
-            <a href="#" className="hover:text-purple-400">Discord</a>
-            <a href="#" className="hover:text-purple-400">Telegram</a>
-            <a href="#" className="hover:text-purple-400">GitHub</a>
+            <a 
+              href="https://twitter.com/givefortuna1111" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple-400 transition-colors"
+            >
+              Twitter
+            </a>
+            <a 
+              href="https://discord.gg/fortuna" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple-400 transition-colors"
+            >
+              Discord
+            </a>
+            <a 
+              href="https://t.me/fortunaofficial" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple-400 transition-colors"
+            >
+              Telegram
+            </a>
+            <a 
+              href="https://github.com/QNTMDNA/fortuna-platform" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-purple-400 transition-colors"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </div>
