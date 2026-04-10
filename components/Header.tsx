@@ -8,7 +8,7 @@ export function Header() {
   const [charitiesOpen, setCharitiesOpen] = useState(false);
 
   return (
-    <nav className="relative z-10 flex items-center justify-between px-6 py-6 lg:px-8 border-b border-white/10">
+    <nav className="relative z-20 flex items-center justify-between px-6 py-6 lg:px-8 border-b border-white/10 bg-slate-900/50 backdrop-blur-sm">
       <div className="flex items-center">
         <Link href="/">
           <img src="/logo-compact.svg" alt="Fortuna" className="h-10 cursor-pointer hover:opacity-80 transition-opacity" />
