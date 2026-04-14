@@ -22,6 +22,12 @@ export function Header() {
         <Link href="/causes" className="text-gray-300 hover:text-white transition-colors">
           Causes
         </Link>
+        <Link href="/giveaway" className="text-purple-400 hover:text-purple-300 font-semibold transition-colors">
+          Giveaway Tool
+        </Link>
+        <Link href="/giveaway" className="text-gray-300 hover:text-white transition-colors">
+          Giveaway Tool
+        </Link>
         
         {/* For Charities Dropdown */}
         <div 
